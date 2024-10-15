@@ -1,0 +1,42 @@
+query fetchFeed($params: FetchFeedInput!, $otherUserId: ID!) {
+  fetchFeed(params: $params) {
+    id
+    phone
+    firstName
+    birthday
+    premium
+    occupation
+    school
+    currentSignInAt
+    currentSignInIp
+    gender
+    desiredGender
+    bio
+    verified
+    onlineStatus
+    gallery {
+      photos {
+        id
+        order
+        url
+      }
+    }
+    animes {
+      id
+      title
+      japaneseTitle
+      cover
+    }
+    favoriteMusic {
+      id
+      trackName
+      artistName
+      coverUrl
+      musicType
+      spotifyId
+    }
+    hasLocationHidden
+    superLikeCount
+    milesAway(otherUserId: $otherUserId)
+  }
+}

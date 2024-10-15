@@ -1,0 +1,257 @@
+{
+  "identifier" : "E63A9C27",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560110089",
+      "localizations" : [
+        {
+          "description" : "Aki's 3D avatar for video chat",
+          "displayName" : "Aki",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_aki",
+      "referenceName" : "Aki",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6587576601",
+      "localizations" : [
+        {
+          "description" : "3D avatar for video chat",
+          "displayName" : "Chloe",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_chloe",
+      "referenceName" : "Chloe",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560110329",
+      "localizations" : [
+        {
+          "description" : "3D avatar for video chat",
+          "displayName" : "Hinata Hyuga",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_hinata",
+      "referenceName" : "Hinata Hyuga",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560110596",
+      "localizations" : [
+        {
+          "description" : "Kazuko's 3D avatar for video chat",
+          "displayName" : "Kazuko",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "kazuko_avatar",
+      "referenceName" : "Kazuko",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560109569",
+      "localizations" : [
+        {
+          "description" : "3D avatar for video chat",
+          "displayName" : "Madara Uchiha",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_madara",
+      "referenceName" : "Madara Uchiha",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560109814",
+      "localizations" : [
+        {
+          "description" : "3D avatar for video chat",
+          "displayName" : "Minato Namikaze",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_minato",
+      "referenceName" : "Minato Namikaze",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560110386",
+      "localizations" : [
+        {
+          "description" : "3D avatar for video chat",
+          "displayName" : "Naruto Uzumaki",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_naruto",
+      "referenceName" : "Naruto Uzumaki",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560109991",
+      "localizations" : [
+        {
+          "description" : "3D avatar for video chat",
+          "displayName" : "Pain",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_pain",
+      "referenceName" : "Pain",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560110741",
+      "localizations" : [
+        {
+          "description" : "Riko's 3D avatar for video chat",
+          "displayName" : "Riko",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_riko",
+      "referenceName" : "Riko",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "6560110693",
+      "localizations" : [
+        {
+          "description" : "3D avatar for video chat",
+          "displayName" : "Toji Fushiguro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "avatar_toji",
+      "referenceName" : "Toji Fushiguro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6464066826",
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_developerTeamID" : "JTMJYZSCG6",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 746137576.46482396,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21415661",
+      "localizations" : [
+
+      ],
+      "name" : "Senpai Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6472954882",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "English version",
+              "displayName" : "Senpai Premium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "19960713",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Senpai Premium",
+          "subscriptionGroupID" : "21415661",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

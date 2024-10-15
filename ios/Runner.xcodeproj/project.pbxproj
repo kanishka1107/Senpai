@@ -1,0 +1,1437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
+		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		3EC1F8D1825F01C85A75F578 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C8785ADD04A577B37FAEFB /* Pods_RunnerTests.framework */; };
+		657415CE2C74159A0018D2EB /* AgoraAiEchoCancellationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD212C31E53B006725D6 /* AgoraAiEchoCancellationExtension.framework */; };
+		657415CF2C74159A0018D2EB /* AgoraAiEchoCancellationExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD212C31E53B006725D6 /* AgoraAiEchoCancellationExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415D02C74159A0018D2EB /* AgoraAiNoiseSuppressionExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD222C31E53B006725D6 /* AgoraAiNoiseSuppressionExtension.framework */; };
+		657415D12C74159A0018D2EB /* AgoraAiNoiseSuppressionExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD222C31E53B006725D6 /* AgoraAiNoiseSuppressionExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415D22C74159A0018D2EB /* AgoraAudioBeautyExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD232C31E53B006725D6 /* AgoraAudioBeautyExtension.framework */; };
+		657415D32C74159A0018D2EB /* AgoraAudioBeautyExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD232C31E53B006725D6 /* AgoraAudioBeautyExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415D42C74159A0018D2EB /* AgoraClearVisionExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD242C31E53B006725D6 /* AgoraClearVisionExtension.framework */; };
+		657415D52C74159A0018D2EB /* AgoraClearVisionExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD242C31E53B006725D6 /* AgoraClearVisionExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415D62C74159A0018D2EB /* AgoraContentInspectExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD252C31E53B006725D6 /* AgoraContentInspectExtension.framework */; };
+		657415D72C74159A0018D2EB /* AgoraContentInspectExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD252C31E53B006725D6 /* AgoraContentInspectExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415D82C74159A0018D2EB /* AgoraCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD262C31E53B006725D6 /* AgoraCore.framework */; };
+		657415D92C74159A0018D2EB /* AgoraCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD262C31E53B006725D6 /* AgoraCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415DA2C74159A0018D2EB /* AgoraDrmLoaderExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD272C31E53B006725D6 /* AgoraDrmLoaderExtension.framework */; };
+		657415DB2C74159A0018D2EB /* AgoraDrmLoaderExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD272C31E53B006725D6 /* AgoraDrmLoaderExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415DC2C74159A0018D2EB /* AgoraFaceDetectionExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD282C31E53B006725D6 /* AgoraFaceDetectionExtension.framework */; };
+		657415DD2C74159A0018D2EB /* AgoraFaceDetectionExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD282C31E53B006725D6 /* AgoraFaceDetectionExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415DE2C74159A0018D2EB /* AgoraReplayKitExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD292C31E53B006725D6 /* AgoraReplayKitExtension.framework */; };
+		657415DF2C74159A0018D2EB /* AgoraReplayKitExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD292C31E53B006725D6 /* AgoraReplayKitExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415E02C74159A0018D2EB /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2A2C31E53B006725D6 /* AgoraRtcKit.framework */; };
+		657415E12C74159A0018D2EB /* AgoraRtcKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2A2C31E53B006725D6 /* AgoraRtcKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415E22C74159A0018D2EB /* AgoraRtcWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2B2C31E53B006725D6 /* AgoraRtcWrapper.framework */; };
+		657415E32C74159A0018D2EB /* AgoraRtcWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2B2C31E53B006725D6 /* AgoraRtcWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415E42C74159A0018D2EB /* AgoraSoundTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2C2C31E53B006725D6 /* AgoraSoundTouch.framework */; };
+		657415E52C74159A0018D2EB /* AgoraSoundTouch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2C2C31E53B006725D6 /* AgoraSoundTouch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415E62C74159A0018D2EB /* AgoraSpatialAudioExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2D2C31E53B006725D6 /* AgoraSpatialAudioExtension.framework */; };
+		657415E72C74159A0018D2EB /* AgoraSpatialAudioExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2D2C31E53B006725D6 /* AgoraSpatialAudioExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415E82C74159A0018D2EB /* AgoraVideoDecoderExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2E2C31E53B006725D6 /* AgoraVideoDecoderExtension.framework */; };
+		657415E92C74159A0018D2EB /* AgoraVideoDecoderExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2E2C31E53B006725D6 /* AgoraVideoDecoderExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415EA2C74159A0018D2EB /* AgoraVideoEncoderExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2F2C31E53B006725D6 /* AgoraVideoEncoderExtension.framework */; };
+		657415EB2C74159A0018D2EB /* AgoraVideoEncoderExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD2F2C31E53B006725D6 /* AgoraVideoEncoderExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415EC2C74159A0018D2EB /* AgoraVideoQualityAnalyzerExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD302C31E53B006725D6 /* AgoraVideoQualityAnalyzerExtension.framework */; };
+		657415ED2C74159A0018D2EB /* AgoraVideoQualityAnalyzerExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD302C31E53B006725D6 /* AgoraVideoQualityAnalyzerExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415EE2C74159B0018D2EB /* AgoraVideoSegmentationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD312C31E53B006725D6 /* AgoraVideoSegmentationExtension.framework */; };
+		657415EF2C74159B0018D2EB /* AgoraVideoSegmentationExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD312C31E53B006725D6 /* AgoraVideoSegmentationExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415F02C74159B0018D2EB /* Agorafdkaac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD322C31E53B006725D6 /* Agorafdkaac.framework */; };
+		657415F12C74159B0018D2EB /* Agorafdkaac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD322C31E53B006725D6 /* Agorafdkaac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415F22C74159B0018D2EB /* Agoraffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD332C31E53B006725D6 /* Agoraffmpeg.framework */; };
+		657415F32C74159B0018D2EB /* Agoraffmpeg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD332C31E53B006725D6 /* Agoraffmpeg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415F42C74159B0018D2EB /* video_dec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD342C31E53B006725D6 /* video_dec.framework */; };
+		657415F52C74159B0018D2EB /* video_dec.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD342C31E53B006725D6 /* video_dec.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415F62C74159B0018D2EB /* video_enc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD352C31E53B006725D6 /* video_enc.framework */; };
+		657415F72C74159B0018D2EB /* video_enc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0653FD352C31E53B006725D6 /* video_enc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657415F82C7415AA0018D2EB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067F20E92C513ED4000A99AF /* opencv2.framework */; };
+		657415F92C7415AA0018D2EB /* opencv2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 067F20E92C513ED4000A99AF /* opencv2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65E09AA62C72906E00528326 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A932C72906D00528326 /* AVFoundation.framework */; };
+		65E09AA72C72906E00528326 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A942C72906D00528326 /* AVKit.framework */; };
+		65E09AA82C72906E00528326 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A952C72906D00528326 /* AudioToolbox.framework */; };
+		65E09AA92C72906E00528326 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A962C72906D00528326 /* CFNetwork.framework */; };
+		65E09AAA2C72906E00528326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A972C72906D00528326 /* CoreGraphics.framework */; };
+		65E09AAB2C72906E00528326 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A982C72906D00528326 /* CoreLocation.framework */; };
+		65E09AAC2C72906E00528326 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A992C72906D00528326 /* CoreMedia.framework */; };
+		65E09AAD2C72906E00528326 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A9A2C72906D00528326 /* CoreMotion.framework */; };
+		65E09AAE2C72906E00528326 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A9B2C72906D00528326 /* CoreText.framework */; };
+		65E09AAF2C72906E00528326 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A9C2C72906D00528326 /* CoreVideo.framework */; };
+		65E09AB02C72906E00528326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A9D2C72906D00528326 /* Foundation.framework */; };
+		65E09AB12C72906E00528326 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A9E2C72906D00528326 /* GameController.framework */; };
+		65E09AB22C72906E00528326 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09A9F2C72906D00528326 /* MediaToolbox.framework */; };
+		65E09AB32C72906E00528326 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09AA02C72906D00528326 /* Metal.framework */; };
+		65E09AB42C72906E00528326 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09AA12C72906D00528326 /* OpenAL.framework */; };
+		65E09AB52C72906E00528326 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09AA22C72906D00528326 /* QuartzCore.framework */; };
+		65E09AB62C72906E00528326 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09AA32C72906D00528326 /* Security.framework */; };
+		65E09AB72C72906E00528326 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09AA42C72906D00528326 /* SystemConfiguration.framework */; };
+		65E09AB82C72906E00528326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E09AA52C72906D00528326 /* UIKit.framework */; };
+		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		CED619773F52EECC0AADCB14 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A41A77CB93F5CD2A3BC55 /* Pods_Runner.framework */; };
+		DE556AE8CB162CDD87CF703C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F95A60E59335750FB1E6A7 /* GoogleService-Info.plist */; };
+		FCED014B2C745E44009A6D0A /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCED014A2C745E44009A6D0A /* UnityFramework.framework */; };
+		FCED014C2C745E44009A6D0A /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FCED014A2C745E44009A6D0A /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		331C8085294A63A400263BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
+			remoteInfo = Runner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0653FD8F2C31ED1D006725D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				657415D72C74159A0018D2EB /* AgoraContentInspectExtension.framework in Embed Frameworks */,
+				657415E12C74159A0018D2EB /* AgoraRtcKit.framework in Embed Frameworks */,
+				657415DB2C74159A0018D2EB /* AgoraDrmLoaderExtension.framework in Embed Frameworks */,
+				657415ED2C74159A0018D2EB /* AgoraVideoQualityAnalyzerExtension.framework in Embed Frameworks */,
+				657415E52C74159A0018D2EB /* AgoraSoundTouch.framework in Embed Frameworks */,
+				657415DF2C74159A0018D2EB /* AgoraReplayKitExtension.framework in Embed Frameworks */,
+				657415CF2C74159A0018D2EB /* AgoraAiEchoCancellationExtension.framework in Embed Frameworks */,
+				657415F32C74159B0018D2EB /* Agoraffmpeg.framework in Embed Frameworks */,
+				657415DD2C74159A0018D2EB /* AgoraFaceDetectionExtension.framework in Embed Frameworks */,
+				657415D52C74159A0018D2EB /* AgoraClearVisionExtension.framework in Embed Frameworks */,
+				657415D92C74159A0018D2EB /* AgoraCore.framework in Embed Frameworks */,
+				657415F52C74159B0018D2EB /* video_dec.framework in Embed Frameworks */,
+				FCED014C2C745E44009A6D0A /* UnityFramework.framework in Embed Frameworks */,
+				657415F72C74159B0018D2EB /* video_enc.framework in Embed Frameworks */,
+				657415E32C74159A0018D2EB /* AgoraRtcWrapper.framework in Embed Frameworks */,
+				657415D32C74159A0018D2EB /* AgoraAudioBeautyExtension.framework in Embed Frameworks */,
+				657415EF2C74159B0018D2EB /* AgoraVideoSegmentationExtension.framework in Embed Frameworks */,
+				657415D12C74159A0018D2EB /* AgoraAiNoiseSuppressionExtension.framework in Embed Frameworks */,
+				657415E72C74159A0018D2EB /* AgoraSpatialAudioExtension.framework in Embed Frameworks */,
+				657415F92C7415AA0018D2EB /* opencv2.framework in Embed Frameworks */,
+				657415EB2C74159A0018D2EB /* AgoraVideoEncoderExtension.framework in Embed Frameworks */,
+				657415E92C74159A0018D2EB /* AgoraVideoDecoderExtension.framework in Embed Frameworks */,
+				657415F12C74159B0018D2EB /* Agorafdkaac.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03F95A60E59335750FB1E6A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Runner/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0653FD032C31DC93006725D6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/OpenCVForUnity/Plugins/iOS/device/opencv2.framework"; sourceTree = "<group>"; };
+		0653FD212C31E53B006725D6 /* AgoraAiEchoCancellationExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAiEchoCancellationExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraAiEchoCancellationExtension.framework"; sourceTree = "<group>"; };
+		0653FD222C31E53B006725D6 /* AgoraAiNoiseSuppressionExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAiNoiseSuppressionExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraAiNoiseSuppressionExtension.framework"; sourceTree = "<group>"; };
+		0653FD232C31E53B006725D6 /* AgoraAudioBeautyExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAudioBeautyExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraAudioBeautyExtension.framework"; sourceTree = "<group>"; };
+		0653FD242C31E53B006725D6 /* AgoraClearVisionExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraClearVisionExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraClearVisionExtension.framework"; sourceTree = "<group>"; };
+		0653FD252C31E53B006725D6 /* AgoraContentInspectExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraContentInspectExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraContentInspectExtension.framework"; sourceTree = "<group>"; };
+		0653FD262C31E53B006725D6 /* AgoraCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraCore.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraCore.framework"; sourceTree = "<group>"; };
+		0653FD272C31E53B006725D6 /* AgoraDrmLoaderExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraDrmLoaderExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraDrmLoaderExtension.framework"; sourceTree = "<group>"; };
+		0653FD282C31E53B006725D6 /* AgoraFaceDetectionExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraFaceDetectionExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraFaceDetectionExtension.framework"; sourceTree = "<group>"; };
+		0653FD292C31E53B006725D6 /* AgoraReplayKitExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraReplayKitExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraReplayKitExtension.framework"; sourceTree = "<group>"; };
+		0653FD2A2C31E53B006725D6 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcKit.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraRtcKit.framework"; sourceTree = "<group>"; };
+		0653FD2B2C31E53B006725D6 /* AgoraRtcWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcWrapper.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraRtcWrapper.framework"; sourceTree = "<group>"; };
+		0653FD2C2C31E53B006725D6 /* AgoraSoundTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSoundTouch.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraSoundTouch.framework"; sourceTree = "<group>"; };
+		0653FD2D2C31E53B006725D6 /* AgoraSpatialAudioExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSpatialAudioExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraSpatialAudioExtension.framework"; sourceTree = "<group>"; };
+		0653FD2E2C31E53B006725D6 /* AgoraVideoDecoderExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoDecoderExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoDecoderExtension.framework"; sourceTree = "<group>"; };
+		0653FD2F2C31E53B006725D6 /* AgoraVideoEncoderExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoEncoderExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoEncoderExtension.framework"; sourceTree = "<group>"; };
+		0653FD302C31E53B006725D6 /* AgoraVideoQualityAnalyzerExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoQualityAnalyzerExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoQualityAnalyzerExtension.framework"; sourceTree = "<group>"; };
+		0653FD312C31E53B006725D6 /* AgoraVideoSegmentationExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoSegmentationExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoSegmentationExtension.framework"; sourceTree = "<group>"; };
+		0653FD322C31E53B006725D6 /* Agorafdkaac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agorafdkaac.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/Agorafdkaac.framework"; sourceTree = "<group>"; };
+		0653FD332C31E53B006725D6 /* Agoraffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agoraffmpeg.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/Agoraffmpeg.framework"; sourceTree = "<group>"; };
+		0653FD342C31E53B006725D6 /* video_dec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = video_dec.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/video_dec.framework"; sourceTree = "<group>"; };
+		0653FD352C31E53B006725D6 /* video_enc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = video_enc.framework; path = "UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/video_enc.framework"; sourceTree = "<group>"; };
+		065A53582C18E406005CF887 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		067F20E92C513ED4000A99AF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = UnityIntegration/UnityLibrary/Frameworks/OpenCVForUnity/Plugins/iOS/device/opencv2.framework; sourceTree = "<group>"; };
+		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		23C8785ADD04A577B37FAEFB /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED356FB4B5A33657527C298 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		312614A90DF66AC7DA001F97 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
+		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		6512FD162C4D97040034B32F /* AgoraAiEchoCancellationExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAiEchoCancellationExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraAiEchoCancellationExtension.framework"; sourceTree = "<group>"; };
+		6512FD172C4D97040034B32F /* AgoraAiNoiseSuppressionExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAiNoiseSuppressionExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraAiNoiseSuppressionExtension.framework"; sourceTree = "<group>"; };
+		6512FD182C4D97040034B32F /* AgoraAudioBeautyExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAudioBeautyExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraAudioBeautyExtension.framework"; sourceTree = "<group>"; };
+		6512FD192C4D97040034B32F /* AgoraClearVisionExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraClearVisionExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraClearVisionExtension.framework"; sourceTree = "<group>"; };
+		6512FD1A2C4D97040034B32F /* AgoraContentInspectExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraContentInspectExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraContentInspectExtension.framework"; sourceTree = "<group>"; };
+		6512FD1B2C4D97040034B32F /* AgoraCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraCore.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraCore.framework"; sourceTree = "<group>"; };
+		6512FD1C2C4D97040034B32F /* AgoraDrmLoaderExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraDrmLoaderExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraDrmLoaderExtension.framework"; sourceTree = "<group>"; };
+		6512FD1D2C4D97040034B32F /* AgoraFaceDetectionExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraFaceDetectionExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraFaceDetectionExtension.framework"; sourceTree = "<group>"; };
+		6512FD1E2C4D97040034B32F /* AgoraReplayKitExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraReplayKitExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraReplayKitExtension.framework"; sourceTree = "<group>"; };
+		6512FD1F2C4D97040034B32F /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcKit.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraRtcKit.framework"; sourceTree = "<group>"; };
+		6512FD202C4D97040034B32F /* AgoraRtcWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcWrapper.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraRtcWrapper.framework"; sourceTree = "<group>"; };
+		6512FD212C4D97040034B32F /* AgoraSoundTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSoundTouch.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraSoundTouch.framework"; sourceTree = "<group>"; };
+		6512FD222C4D97040034B32F /* AgoraSpatialAudioExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSpatialAudioExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraSpatialAudioExtension.framework"; sourceTree = "<group>"; };
+		6512FD232C4D97040034B32F /* AgoraVideoDecoderExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoDecoderExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoDecoderExtension.framework"; sourceTree = "<group>"; };
+		6512FD242C4D97040034B32F /* AgoraVideoEncoderExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoEncoderExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoEncoderExtension.framework"; sourceTree = "<group>"; };
+		6512FD252C4D97040034B32F /* AgoraVideoQualityAnalyzerExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoQualityAnalyzerExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoQualityAnalyzerExtension.framework"; sourceTree = "<group>"; };
+		6512FD262C4D97040034B32F /* AgoraVideoSegmentationExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraVideoSegmentationExtension.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/AgoraVideoSegmentationExtension.framework"; sourceTree = "<group>"; };
+		6512FD272C4D97040034B32F /* Agorafdkaac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agorafdkaac.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/Agorafdkaac.framework"; sourceTree = "<group>"; };
+		6512FD282C4D97040034B32F /* Agoraffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agoraffmpeg.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/Agoraffmpeg.framework"; sourceTree = "<group>"; };
+		6512FD4F2C4D97190034B32F /* video_dec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = video_dec.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/video_dec.framework"; sourceTree = "<group>"; };
+		6512FD502C4D97190034B32F /* video_enc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = video_enc.framework; path = "UnityIntegration/UnityLibrary/Frameworks/_Asset Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS/video_enc.framework"; sourceTree = "<group>"; };
+		657F0CE02B5DE16D00B32CEF /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		65E09A932C72906D00528326 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		65E09A942C72906D00528326 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		65E09A952C72906D00528326 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		65E09A962C72906D00528326 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		65E09A972C72906D00528326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65E09A982C72906D00528326 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		65E09A992C72906D00528326 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		65E09A9A2C72906D00528326 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		65E09A9B2C72906D00528326 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		65E09A9C2C72906D00528326 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		65E09A9D2C72906D00528326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65E09A9E2C72906D00528326 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		65E09A9F2C72906D00528326 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		65E09AA02C72906D00528326 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		65E09AA12C72906D00528326 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		65E09AA22C72906D00528326 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		65E09AA32C72906D00528326 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		65E09AA42C72906D00528326 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65E09AA52C72906D00528326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		707A41A77CB93F5CD2A3BC55 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
+		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7824798217B65137ACB5E27E /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
+		7CBF6F6C3AB9634427DAE95C /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
+		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
+		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F90D6BA9A2344F2C2C5B5B /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		ED08B3338649AEB0CA0AB686 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		FC0B38EF2C6AF1DF00E384CA /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE6AF8E2C6EF2CA00176E7C /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCED014A2C745E44009A6D0A /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5DF4FDE21D9516B8D49F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC1F8D1825F01C85A75F578 /* Pods_RunnerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C146EB1CF9000F007C117D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E09AA92C72906E00528326 /* CFNetwork.framework in Frameworks */,
+				657415D82C74159A0018D2EB /* AgoraCore.framework in Frameworks */,
+				CED619773F52EECC0AADCB14 /* Pods_Runner.framework in Frameworks */,
+				FCED014B2C745E44009A6D0A /* UnityFramework.framework in Frameworks */,
+				657415E82C74159A0018D2EB /* AgoraVideoDecoderExtension.framework in Frameworks */,
+				65E09AAE2C72906E00528326 /* CoreText.framework in Frameworks */,
+				65E09AAD2C72906E00528326 /* CoreMotion.framework in Frameworks */,
+				65E09AAC2C72906E00528326 /* CoreMedia.framework in Frameworks */,
+				657415F22C74159B0018D2EB /* Agoraffmpeg.framework in Frameworks */,
+				65E09AB72C72906E00528326 /* SystemConfiguration.framework in Frameworks */,
+				657415D42C74159A0018D2EB /* AgoraClearVisionExtension.framework in Frameworks */,
+				657415EA2C74159A0018D2EB /* AgoraVideoEncoderExtension.framework in Frameworks */,
+				657415E22C74159A0018D2EB /* AgoraRtcWrapper.framework in Frameworks */,
+				657415D02C74159A0018D2EB /* AgoraAiNoiseSuppressionExtension.framework in Frameworks */,
+				65E09AAA2C72906E00528326 /* CoreGraphics.framework in Frameworks */,
+				657415D62C74159A0018D2EB /* AgoraContentInspectExtension.framework in Frameworks */,
+				65E09AAB2C72906E00528326 /* CoreLocation.framework in Frameworks */,
+				657415DE2C74159A0018D2EB /* AgoraReplayKitExtension.framework in Frameworks */,
+				657415F42C74159B0018D2EB /* video_dec.framework in Frameworks */,
+				657415F82C7415AA0018D2EB /* opencv2.framework in Frameworks */,
+				657415EE2C74159B0018D2EB /* AgoraVideoSegmentationExtension.framework in Frameworks */,
+				657415EC2C74159A0018D2EB /* AgoraVideoQualityAnalyzerExtension.framework in Frameworks */,
+				657415E62C74159A0018D2EB /* AgoraSpatialAudioExtension.framework in Frameworks */,
+				657415D22C74159A0018D2EB /* AgoraAudioBeautyExtension.framework in Frameworks */,
+				657415DA2C74159A0018D2EB /* AgoraDrmLoaderExtension.framework in Frameworks */,
+				65E09AB52C72906E00528326 /* QuartzCore.framework in Frameworks */,
+				65E09AB12C72906E00528326 /* GameController.framework in Frameworks */,
+				657415F02C74159B0018D2EB /* Agorafdkaac.framework in Frameworks */,
+				65E09AB02C72906E00528326 /* Foundation.framework in Frameworks */,
+				65E09AA82C72906E00528326 /* AudioToolbox.framework in Frameworks */,
+				65E09AA72C72906E00528326 /* AVKit.framework in Frameworks */,
+				657415DC2C74159A0018D2EB /* AgoraFaceDetectionExtension.framework in Frameworks */,
+				65E09AB62C72906E00528326 /* Security.framework in Frameworks */,
+				65E09AB22C72906E00528326 /* MediaToolbox.framework in Frameworks */,
+				657415E42C74159A0018D2EB /* AgoraSoundTouch.framework in Frameworks */,
+				65E09AB42C72906E00528326 /* OpenAL.framework in Frameworks */,
+				657415CE2C74159A0018D2EB /* AgoraAiEchoCancellationExtension.framework in Frameworks */,
+				65E09AA62C72906E00528326 /* AVFoundation.framework in Frameworks */,
+				65E09AB32C72906E00528326 /* Metal.framework in Frameworks */,
+				657415E02C74159A0018D2EB /* AgoraRtcKit.framework in Frameworks */,
+				65E09AB82C72906E00528326 /* UIKit.framework in Frameworks */,
+				65E09AAF2C72906E00528326 /* CoreVideo.framework in Frameworks */,
+				657415F62C74159B0018D2EB /* video_enc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C80512D6E263DFFBCB52363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0F90D6BA9A2344F2C2C5B5B /* Pods-Runner.debug.xcconfig */,
+				ED08B3338649AEB0CA0AB686 /* Pods-Runner.release.xcconfig */,
+				312614A90DF66AC7DA001F97 /* Pods-Runner.profile.xcconfig */,
+				7824798217B65137ACB5E27E /* Pods-RunnerTests.debug.xcconfig */,
+				7CBF6F6C3AB9634427DAE95C /* Pods-RunnerTests.release.xcconfig */,
+				2ED356FB4B5A33657527C298 /* Pods-RunnerTests.profile.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A0F385F969CB92A63375C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCED014A2C745E44009A6D0A /* UnityFramework.framework */,
+				FCE6AF8E2C6EF2CA00176E7C /* UnityFramework.framework */,
+				65E09A932C72906D00528326 /* AVFoundation.framework */,
+				65E09A942C72906D00528326 /* AVKit.framework */,
+				65E09A952C72906D00528326 /* AudioToolbox.framework */,
+				65E09A962C72906D00528326 /* CFNetwork.framework */,
+				65E09A972C72906D00528326 /* CoreGraphics.framework */,
+				65E09A982C72906D00528326 /* CoreLocation.framework */,
+				65E09A992C72906D00528326 /* CoreMedia.framework */,
+				65E09A9A2C72906D00528326 /* CoreMotion.framework */,
+				65E09A9B2C72906D00528326 /* CoreText.framework */,
+				65E09A9C2C72906D00528326 /* CoreVideo.framework */,
+				65E09A9D2C72906D00528326 /* Foundation.framework */,
+				65E09A9E2C72906D00528326 /* GameController.framework */,
+				65E09A9F2C72906D00528326 /* MediaToolbox.framework */,
+				65E09AA02C72906D00528326 /* Metal.framework */,
+				65E09AA12C72906D00528326 /* OpenAL.framework */,
+				65E09AA22C72906D00528326 /* QuartzCore.framework */,
+				65E09AA32C72906D00528326 /* Security.framework */,
+				65E09AA42C72906D00528326 /* SystemConfiguration.framework */,
+				65E09AA52C72906D00528326 /* UIKit.framework */,
+				FC0B38EF2C6AF1DF00E384CA /* UnityFramework.framework */,
+				6512FD162C4D97040034B32F /* AgoraAiEchoCancellationExtension.framework */,
+				6512FD172C4D97040034B32F /* AgoraAiNoiseSuppressionExtension.framework */,
+				6512FD182C4D97040034B32F /* AgoraAudioBeautyExtension.framework */,
+				6512FD192C4D97040034B32F /* AgoraClearVisionExtension.framework */,
+				6512FD1A2C4D97040034B32F /* AgoraContentInspectExtension.framework */,
+				6512FD1B2C4D97040034B32F /* AgoraCore.framework */,
+				6512FD1C2C4D97040034B32F /* AgoraDrmLoaderExtension.framework */,
+				6512FD1D2C4D97040034B32F /* AgoraFaceDetectionExtension.framework */,
+				6512FD1E2C4D97040034B32F /* AgoraReplayKitExtension.framework */,
+				067F20E92C513ED4000A99AF /* opencv2.framework */,
+				6512FD1F2C4D97040034B32F /* AgoraRtcKit.framework */,
+				6512FD202C4D97040034B32F /* AgoraRtcWrapper.framework */,
+				6512FD212C4D97040034B32F /* AgoraSoundTouch.framework */,
+				6512FD222C4D97040034B32F /* AgoraSpatialAudioExtension.framework */,
+				6512FD232C4D97040034B32F /* AgoraVideoDecoderExtension.framework */,
+				6512FD242C4D97040034B32F /* AgoraVideoEncoderExtension.framework */,
+				6512FD252C4D97040034B32F /* AgoraVideoQualityAnalyzerExtension.framework */,
+				6512FD262C4D97040034B32F /* AgoraVideoSegmentationExtension.framework */,
+				6512FD272C4D97040034B32F /* Agorafdkaac.framework */,
+				6512FD282C4D97040034B32F /* Agoraffmpeg.framework */,
+				6512FD4F2C4D97190034B32F /* video_dec.framework */,
+				6512FD502C4D97190034B32F /* video_enc.framework */,
+				065A53582C18E406005CF887 /* UnityFramework.framework */,
+				0653FD032C31DC93006725D6 /* opencv2.framework */,
+				0653FD212C31E53B006725D6 /* AgoraAiEchoCancellationExtension.framework */,
+				0653FD222C31E53B006725D6 /* AgoraAiNoiseSuppressionExtension.framework */,
+				0653FD232C31E53B006725D6 /* AgoraAudioBeautyExtension.framework */,
+				0653FD242C31E53B006725D6 /* AgoraClearVisionExtension.framework */,
+				0653FD252C31E53B006725D6 /* AgoraContentInspectExtension.framework */,
+				0653FD262C31E53B006725D6 /* AgoraCore.framework */,
+				0653FD272C31E53B006725D6 /* AgoraDrmLoaderExtension.framework */,
+				0653FD282C31E53B006725D6 /* AgoraFaceDetectionExtension.framework */,
+				0653FD292C31E53B006725D6 /* AgoraReplayKitExtension.framework */,
+				0653FD2A2C31E53B006725D6 /* AgoraRtcKit.framework */,
+				0653FD2B2C31E53B006725D6 /* AgoraRtcWrapper.framework */,
+				0653FD2C2C31E53B006725D6 /* AgoraSoundTouch.framework */,
+				0653FD2D2C31E53B006725D6 /* AgoraSpatialAudioExtension.framework */,
+				0653FD2E2C31E53B006725D6 /* AgoraVideoDecoderExtension.framework */,
+				0653FD2F2C31E53B006725D6 /* AgoraVideoEncoderExtension.framework */,
+				0653FD302C31E53B006725D6 /* AgoraVideoQualityAnalyzerExtension.framework */,
+				0653FD312C31E53B006725D6 /* AgoraVideoSegmentationExtension.framework */,
+				0653FD322C31E53B006725D6 /* Agorafdkaac.framework */,
+				0653FD332C31E53B006725D6 /* Agoraffmpeg.framework */,
+				0653FD342C31E53B006725D6 /* video_dec.framework */,
+				0653FD352C31E53B006725D6 /* video_enc.framework */,
+				707A41A77CB93F5CD2A3BC55 /* Pods_Runner.framework */,
+				23C8785ADD04A577B37FAEFB /* Pods_RunnerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		331C8082294A63A400263BE5 /* RunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				331C807B294A618700263BE5 /* RunnerTests.swift */,
+			);
+			path = RunnerTests;
+			sourceTree = "<group>";
+		};
+		9740EEB11CF90186004384FC /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
+				9740EEB21CF90195004384FC /* Debug.xcconfig */,
+				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
+				9740EEB31CF90195004384FC /* Generated.xcconfig */,
+			);
+			name = Flutter;
+			sourceTree = "<group>";
+		};
+		97C146E51CF9000F007C117D = {
+			isa = PBXGroup;
+			children = (
+				9740EEB11CF90186004384FC /* Flutter */,
+				97C146F01CF9000F007C117D /* Runner */,
+				97C146EF1CF9000F007C117D /* Products */,
+				331C8082294A63A400263BE5 /* RunnerTests */,
+				0C80512D6E263DFFBCB52363 /* Pods */,
+				2A0F385F969CB92A63375C03 /* Frameworks */,
+				03F95A60E59335750FB1E6A7 /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		97C146EF1CF9000F007C117D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C146EE1CF9000F007C117D /* Runner.app */,
+				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97C146F01CF9000F007C117D /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				657F0CE02B5DE16D00B32CEF /* Runner.entitlements */,
+				97C146FA1CF9000F007C117D /* Main.storyboard */,
+				97C146FD1CF9000F007C117D /* Assets.xcassets */,
+				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
+				97C147021CF9000F007C117D /* Info.plist */,
+				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
+				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
+				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
+				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331C8080294A63A400263BE5 /* RunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */;
+			buildPhases = (
+				75E6F7C863AD6F1BCC73CE08 /* [CP] Check Pods Manifest.lock */,
+				331C807D294A63A400263BE5 /* Sources */,
+				331C807F294A63A400263BE5 /* Resources */,
+				4C5DF4FDE21D9516B8D49F35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				331C8086294A63A400263BE5 /* PBXTargetDependency */,
+			);
+			name = RunnerTests;
+			productName = RunnerTests;
+			productReference = 331C8081294A63A400263BE5 /* RunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97C146ED1CF9000F007C117D /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				6FABAC50E0C6F37B7CF7287C /* [CP] Check Pods Manifest.lock */,
+				9740EEB61CF901F6004384FC /* Run Script */,
+				0653FD8F2C31ED1D006725D6 /* Embed Frameworks */,
+				97C146EA1CF9000F007C117D /* Sources */,
+				97C146EB1CF9000F007C117D /* Frameworks */,
+				97C146EC1CF9000F007C117D /* Resources */,
+				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				4902976485C199ADD1D2764E /* [CP] Embed Pods Frameworks */,
+				0E14D24E797917739C7A871C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97C146E61CF9000F007C117D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1510;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					331C8080294A63A400263BE5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 97C146ED1CF9000F007C117D;
+					};
+					97C146ED1CF9000F007C117D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C146E51CF9000F007C117D;
+			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C146ED1CF9000F007C117D /* Runner */,
+				331C8080294A63A400263BE5 /* RunnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331C807F294A63A400263BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C146EC1CF9000F007C117D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
+				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				DE556AE8CB162CDD87CF703C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E14D24E797917739C7A871C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+		};
+		4902976485C199ADD1D2764E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FABAC50E0C6F37B7CF7287C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E6F7C863AD6F1BCC73CE08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9740EEB61CF901F6004384FC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331C807D294A63A400263BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C146EA1CF9000F007C117D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		331C8086294A63A400263BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97C146ED1CF9000F007C117D /* Runner */;
+			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C146FB1CF9000F007C117D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C147001CF9000F007C117D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		249021D3217E4FDB00AE95B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JTMJYZSCG6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		249021D4217E4FDB00AE95B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = JTMJYZSCG6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+				);
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senpaiapp.senpai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+		331C8088294A63A400263BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7824798217B65137ACB5E27E /* Pods-RunnerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = makeshift.software.inc.senpai.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = Debug;
+		};
+		331C8089294A63A400263BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBF6F6C3AB9634427DAE95C /* Pods-RunnerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = makeshift.software.inc.senpai.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = Release;
+		};
+		331C808A294A63A400263BE5 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED356FB4B5A33657527C298 /* Pods-RunnerTests.profile.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = makeshift.software.inc.senpai.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = Profile;
+		};
+		97C147031CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JTMJYZSCG6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97C147041CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JTMJYZSCG6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97C147061CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = JTMJYZSCG6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+				);
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senpaiapp.senpai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		97C147071CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = JTMJYZSCG6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/OpenCVForUnity/Plugins/iOS/device",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityIntegration/UnityLibrary/Frameworks/_Asset\\ Store/Agora-RTC-Plugin/Agora-Unity-RTC-SDK/Plugins/iOS",
+				);
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senpaiapp.senpai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331C8088294A63A400263BE5 /* Debug */,
+				331C8089294A63A400263BE5 /* Release */,
+				331C808A294A63A400263BE5 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147031CF9000F007C117D /* Debug */,
+				97C147041CF9000F007C117D /* Release */,
+				249021D3217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147061CF9000F007C117D /* Debug */,
+				97C147071CF9000F007C117D /* Release */,
+				249021D4217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97C146E61CF9000F007C117D /* Project object */;
+}

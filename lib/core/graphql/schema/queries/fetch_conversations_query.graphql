@@ -1,0 +1,53 @@
+query fetchConversations($userId: ID!) {
+  fetchConversations(userId: $userId) {
+    id
+    match {
+      id
+      createdAt
+      user {
+        id
+        onlineStatus
+        firstName
+        gallery {
+          photos {
+            order
+            url
+          }
+        }
+      }
+      matchee {
+        id
+        onlineStatus
+        firstName
+        gallery {
+          photos {
+            order
+            url
+          }
+        }
+      }
+    }
+    lastMessage {
+      attachment
+      attachmentType
+      content
+      createdAt
+      reaction
+      read
+      senderId
+      recommendation {
+        userId
+        recommendeeId
+        anime {
+          title
+          cover
+        }
+      }
+      sticker {
+        id
+        url
+      }
+    }
+    unreadCount(userId: $userId)
+  }
+}
